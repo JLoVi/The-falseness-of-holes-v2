@@ -1,0 +1,19 @@
+﻿<Properties StartupConfiguration="{4937355D-DA5F-4E7B-A18E-9A7E0A2213AA}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/_Scripts/Portal.cs">
+    <Files>
+      <File FileName="Assets/_Shaders/Terrain-Specular-Base.shader" Line="52" Column="7" />
+      <File FileName="Temp/Compiled-Nature-Terrain-Standard.shader" />
+      <File FileName="Assets/Editor/ExportTerrain.cs" />
+      <File FileName="Assets/_Scripts/Portal.cs" Line="20" Column="59" />
+      <File FileName="Assets/_Shaders/StencilFilter.shader" Line="20" Column="9" NotebookId="1" />
+      <File FileName="Assets/_Shaders/StandardStencilFilter.shader" NotebookId="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="4f7fde39-5b6f-4d98-af62-cf9d8ebba259" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
