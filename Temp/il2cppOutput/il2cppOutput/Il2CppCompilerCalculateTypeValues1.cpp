@@ -28642,6 +28642,8 @@ public:
 	bool ___wasInFront_6;
 	// System.Boolean Portal::inOtherWorld
 	bool ___inOtherWorld_7;
+	// System.Boolean Portal::reverseMat
+	bool ___reverseMat_8;
 
 public:
 	inline static int32_t get_offset_of_materials_4() { return static_cast<int32_t>(offsetof(Portal_t6C22C161CAA950FE0FFC955E6042A652909ECE71, ___materials_4)); }
@@ -28676,6 +28678,14 @@ public:
 	inline void set_inOtherWorld_7(bool value)
 	{
 		___inOtherWorld_7 = value;
+	}
+
+	inline static int32_t get_offset_of_reverseMat_8() { return static_cast<int32_t>(offsetof(Portal_t6C22C161CAA950FE0FFC955E6042A652909ECE71, ___reverseMat_8)); }
+	inline bool get_reverseMat_8() const { return ___reverseMat_8; }
+	inline bool* get_address_of_reverseMat_8() { return &___reverseMat_8; }
+	inline void set_reverseMat_8(bool value)
+	{
+		___reverseMat_8 = value;
 	}
 };
 
@@ -41359,12 +41369,13 @@ IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable2701[2] =
 };
 extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2702;
 const Il2CppTypeDefinitionSizes g_typeDefinitionSize2702 = { sizeof (Portal_t6C22C161CAA950FE0FFC955E6042A652909ECE71), -1, 0, 0 };
-IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable2702[4] = 
+IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable2702[5] = 
 {
 	Portal_t6C22C161CAA950FE0FFC955E6042A652909ECE71::get_offset_of_materials_4(),
 	Portal_t6C22C161CAA950FE0FFC955E6042A652909ECE71::get_offset_of_device_5(),
 	Portal_t6C22C161CAA950FE0FFC955E6042A652909ECE71::get_offset_of_wasInFront_6(),
 	Portal_t6C22C161CAA950FE0FFC955E6042A652909ECE71::get_offset_of_inOtherWorld_7(),
+	Portal_t6C22C161CAA950FE0FFC955E6042A652909ECE71::get_offset_of_reverseMat_8(),
 };
 extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2703;
 const Il2CppTypeDefinitionSizes g_typeDefinitionSize2703 = { sizeof (MouseLook_t09B5CDC09EE6C96861DDED68BF1D46BC3C3D6EC7), -1, 0, 0 };

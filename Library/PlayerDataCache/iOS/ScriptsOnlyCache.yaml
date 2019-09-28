@@ -1113,4 +1113,4 @@ ScriptsOnlyBuild:
   platform: 9
   scenePathNames:
   - Assets/_Scenes/00-all.unity
-  playerPath: /Users/jelena/Documents/00-PORTINAIA/unity/builds/obj-test-v12
+  playerPath: /Users/jelena/Documents/00-PORTINAIA/unity/builds/obj-test-v18

@@ -13,20 +13,39 @@ public class Portal : MonoBehaviour
     bool wasInFront;
     bool inOtherWorld;
 
+    bool reverseMat;
+
     // Start is called before the first frame update
     void Start()
     {
-        SetMaterials(false);
-        device = GameObject.Find("Main Camera").transform;
-    }
-
-    void SetMaterials(bool fullRender)
-    {
-        var stencilTest = fullRender ? CompareFunction.NotEqual : CompareFunction.Equal;
+       // SetMaterials(false);
+//        device = GameObject.Find("Main Camera").transform;
 
         foreach (var mat in materials)
         {
-            mat.SetInt("_StencilTest", (int)stencilTest);
+            Debug.Log(mat.GetInt("_StencilTest"));
+
+
+        }
+    }
+
+    void SetMaterials()
+    {
+        //var stencilTest = fullRender ? CompareFunction.NotEqual : CompareFunction.Equal;
+
+        foreach (var mat in materials)
+        {
+            //mat.SetInt("_StencilTest", (int)stencilTest);
+            if(mat.GetInt("_StencilTest")== 6)
+            {
+                mat.SetInt("_StencilTest", 3);
+            }
+            else if (mat.GetInt("_StencilTest") == 3)
+            {
+                mat.SetInt("_StencilTest", 6);
+            }
+
+            
         }
 
     }
@@ -53,15 +72,15 @@ public class Portal : MonoBehaviour
         bool isInFront = GetIsInFront();
         if((isInFront && !wasInFront) || (wasInFront && !isInFront))
         {
-            inOtherWorld = !inOtherWorld;
-            SetMaterials(inOtherWorld);
+            //inOtherWorld = !inOtherWorld;
+            SetMaterials();
         }
         wasInFront = isInFront;
     }
 
     void OnDestroy()
     {
-        SetMaterials(true);
+        //SetMaterials();
     }
 
     // Update is called once per frame

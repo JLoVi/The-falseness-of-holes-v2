@@ -38,8 +38,8 @@ extern void InterdimensionalTransport_Update_mC2A9BB8417DDCB81D46DF4AF63FE769CDB
 extern void InterdimensionalTransport__ctor_m68E4307882477728716627979616D18745C9B2F7 ();
 // 0x00000009 System.Void Portal::Start()
 extern void Portal_Start_mE52DBD38530ED87426474916963522A8BFE3CA87 ();
-// 0x0000000A System.Void Portal::SetMaterials(System.Boolean)
-extern void Portal_SetMaterials_m31700D34DC2B6A3BBBDE9CF8DFB014D349933988 ();
+// 0x0000000A System.Void Portal::SetMaterials()
+extern void Portal_SetMaterials_mDC3D6E7BAE24BB87EE1CDB67553B8F5D586341E9 ();
 // 0x0000000B System.Boolean Portal::GetIsInFront()
 extern void Portal_GetIsInFront_m4087A439373FAC4399BFAA471517C8D8F1D2BDAB ();
 // 0x0000000C System.Void Portal::OnTriggerEnter(UnityEngine.Collider)
@@ -2145,7 +2145,7 @@ static Il2CppMethodPointer s_methodPointers[1064] =
 	InterdimensionalTransport_Update_mC2A9BB8417DDCB81D46DF4AF63FE769CDBBD00F3,
 	InterdimensionalTransport__ctor_m68E4307882477728716627979616D18745C9B2F7,
 	Portal_Start_mE52DBD38530ED87426474916963522A8BFE3CA87,
-	Portal_SetMaterials_m31700D34DC2B6A3BBBDE9CF8DFB014D349933988,
+	Portal_SetMaterials_mDC3D6E7BAE24BB87EE1CDB67553B8F5D586341E9,
 	Portal_GetIsInFront_m4087A439373FAC4399BFAA471517C8D8F1D2BDAB,
 	Portal_OnTriggerEnter_mE8092AF2A861BEBE03385E361BB30347507EACA9,
 	Portal_OnTriggerStay_m840B9E1928F9BE2E7FD3D751654578B1D210B406,
@@ -3212,7 +3212,7 @@ static const int32_t s_InvokerIndices[1064] =
 	23,
 	23,
 	23,
-	31,
+	23,
 	114,
 	26,
 	26,
@@ -3416,11 +3416,11 @@ static const int32_t s_InvokerIndices[1064] =
 	23,
 	23,
 	1200,
-	1241,
+	1242,
 	23,
 	1564,
 	23,
-	1203,
+	1204,
 	1200,
 	23,
 	678,
@@ -3441,7 +3441,7 @@ static const int32_t s_InvokerIndices[1064] =
 	23,
 	23,
 	929,
-	1256,
+	1202,
 	23,
 	23,
 	23,
@@ -3451,7 +3451,7 @@ static const int32_t s_InvokerIndices[1064] =
 	23,
 	23,
 	1200,
-	1241,
+	1242,
 	290,
 	23,
 	14,
@@ -3460,7 +3460,7 @@ static const int32_t s_InvokerIndices[1064] =
 	23,
 	23,
 	1200,
-	1241,
+	1242,
 	23,
 	23,
 	23,
@@ -3476,7 +3476,7 @@ static const int32_t s_InvokerIndices[1064] =
 	23,
 	23,
 	1262,
-	1241,
+	1242,
 	23,
 	23,
 	1796,
@@ -4024,7 +4024,7 @@ static const int32_t s_InvokerIndices[1064] =
 	26,
 	0,
 	0,
-	1251,
+	1252,
 	1892,
 	14,
 	1893,
