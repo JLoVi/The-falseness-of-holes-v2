@@ -26,7 +26,7 @@ public class Portal : MonoBehaviour
 
         foreach (var mat in materials)
         {
-            mat.SetInt("_StencilTest", (int)CompareFunction.Equal);
+            mat.SetInt("_StencilTest", (int)stencilTest);
         }
 
     }

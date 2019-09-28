@@ -81,7 +81,7 @@ namespace ObjectProduceTestTypes { class SubDerived; }
 class EditorExtension; template <> void RegisterUnityClass<EditorExtension>(const char*);
 namespace Unity { class Component; } template <> void RegisterUnityClass<Unity::Component>(const char*);
 class Behaviour; template <> void RegisterUnityClass<Behaviour>(const char*);
-class Animation; 
+class Animation; template <> void RegisterUnityClass<Animation>(const char*);
 class Animator; template <> void RegisterUnityClass<Animator>(const char*);
 class AudioBehaviour; template <> void RegisterUnityClass<AudioBehaviour>(const char*);
 class AudioListener; template <> void RegisterUnityClass<AudioListener>(const char*);
@@ -226,8 +226,8 @@ class LocalizationAsset;
 class Material; template <> void RegisterUnityClass<Material>(const char*);
 class ProceduralMaterial; 
 class Mesh; template <> void RegisterUnityClass<Mesh>(const char*);
-class Motion; 
-class AnimationClip; 
+class Motion; template <> void RegisterUnityClass<Motion>(const char*);
+class AnimationClip; template <> void RegisterUnityClass<AnimationClip>(const char*);
 class PreviewAnimationClip; 
 class NavMeshData; 
 class OcclusionCullingData; 
@@ -315,7 +315,7 @@ void RegisterAllClasses()
 {
 void RegisterBuiltinTypes();
 RegisterBuiltinTypes();
-	//Total: 85 non stripped classes
+	//Total: 88 non stripped classes
 	//0. Camera
 	RegisterUnityClass<Camera>("Core");
 	//1. Behaviour
@@ -426,65 +426,71 @@ RegisterBuiltinTypes();
 	RegisterUnityClass<AnimatorOverrideController>("Animation");
 	//54. RuntimeAnimatorController
 	RegisterUnityClass<RuntimeAnimatorController>("Animation");
-	//55. ParticleSystem
+	//55. Animation
+	RegisterUnityClass<Animation>("Animation");
+	//56. ParticleSystem
 	RegisterUnityClass<ParticleSystem>("ParticleSystem");
-	//56. ParticleSystemRenderer
+	//57. ParticleSystemRenderer
 	RegisterUnityClass<ParticleSystemRenderer>("ParticleSystem");
-	//57. MeshCollider
+	//58. MeshCollider
 	RegisterUnityClass<MeshCollider>("Physics");
-	//58. BoxCollider
+	//59. BoxCollider
 	RegisterUnityClass<BoxCollider>("Physics");
-	//59. MonoScript
+	//60. MonoScript
 	RegisterUnityClass<MonoScript>("Core");
-	//60. UnityConnectSettings
+	//61. UnityConnectSettings
 	RegisterUnityClass<UnityConnectSettings>("UnityConnect");
-	//61. AudioManager
+	//62. AudioManager
 	RegisterUnityClass<AudioManager>("Audio");
-	//62. PlayerSettings
+	//63. PlayerSettings
 	RegisterUnityClass<PlayerSettings>("Core");
-	//63. PhysicsManager
+	//64. PhysicsManager
 	RegisterUnityClass<PhysicsManager>("Physics");
-	//64. TimeManager
+	//65. TimeManager
 	RegisterUnityClass<TimeManager>("Core");
-	//65. InputManager
+	//66. InputManager
 	RegisterUnityClass<InputManager>("Core");
-	//66. TagManager
+	//67. TagManager
 	RegisterUnityClass<TagManager>("Core");
-	//67. MonoManager
+	//68. MonoManager
 	RegisterUnityClass<MonoManager>("Core");
-	//68. DelayedCallManager
+	//69. DelayedCallManager
 	RegisterUnityClass<DelayedCallManager>("Core");
-	//69. BuildSettings
+	//70. BuildSettings
 	RegisterUnityClass<BuildSettings>("Core");
-	//70. RuntimeInitializeOnLoadManager
+	//71. RuntimeInitializeOnLoadManager
 	RegisterUnityClass<RuntimeInitializeOnLoadManager>("Core");
-	//71. ResourceManager
+	//72. ResourceManager
 	RegisterUnityClass<ResourceManager>("Core");
-	//72. ScriptMapper
+	//73. ScriptMapper
 	RegisterUnityClass<ScriptMapper>("Core");
-	//73. Physics2DSettings
+	//74. Physics2DSettings
 	RegisterUnityClass<Physics2DSettings>("Physics2D");
-	//74. AudioBehaviour
+	//75. AnimationClip
+	RegisterUnityClass<AnimationClip>("Animation");
+	//76. Motion
+	RegisterUnityClass<Motion>("Animation");
+	//77. AudioBehaviour
 	RegisterUnityClass<AudioBehaviour>("Audio");
-	//75. AudioListener
+	//78. AudioListener
 	RegisterUnityClass<AudioListener>("Audio");
-	//76. WindZone
+	//79. WindZone
 	RegisterUnityClass<WindZone>("Wind");
-	//77. LODGroup
+	//80. LODGroup
 	RegisterUnityClass<LODGroup>("Core");
-	//78. Terrain
+	//81. Terrain
 	RegisterUnityClass<Terrain>("Terrain");
-	//79. TerrainData
+	//82. TerrainData
 	RegisterUnityClass<TerrainData>("Terrain");
-	//80. TerrainLayer
+	//83. TerrainLayer
 	RegisterUnityClass<TerrainLayer>("Terrain");
-	//81. FlareLayer
+	//84. FlareLayer
 	RegisterUnityClass<FlareLayer>("Core");
-	//82. CapsuleCollider
+	//85. CapsuleCollider
 	RegisterUnityClass<CapsuleCollider>("Physics");
-	//83. TerrainCollider
+	//86. TerrainCollider
 	RegisterUnityClass<TerrainCollider>("TerrainPhysics");
-	//84. SphereCollider
+	//87. SphereCollider
 	RegisterUnityClass<SphereCollider>("Physics");
 
 }

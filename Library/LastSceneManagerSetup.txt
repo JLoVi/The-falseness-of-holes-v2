@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Scenes/Ar-v2.unity
+- path: Assets/_Scenes/portal-test.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0

@@ -206,7 +206,21 @@ extern void OnOverrideControllerDirtyCallback_BeginInvoke_m35CE43BF7D40E88192183
 extern void OnOverrideControllerDirtyCallback_EndInvoke_m39CFD9FD2CC3035CFF6809F56447932B1394C08E ();
 // 0x0000005D System.Void UnityEngine.AnimationEvent::.ctor()
 extern void AnimationEvent__ctor_m6C228EB716B6B53DE2665091C056428EFB90897F ();
-static Il2CppMethodPointer s_methodPointers[93] = 
+// 0x0000005E System.Collections.IEnumerator UnityEngine.Animation::GetEnumerator()
+extern void Animation_GetEnumerator_m1AA556FBFDF08728D25984E9C3123C187DC76191 ();
+// 0x0000005F UnityEngine.AnimationState UnityEngine.Animation::GetStateAtIndex(System.Int32)
+extern void Animation_GetStateAtIndex_mC1F37F66327704F8DD88BE26AD73B2D5051698CA ();
+// 0x00000060 System.Int32 UnityEngine.Animation::GetStateCount()
+extern void Animation_GetStateCount_m9E1764870EAF179CD0D21E3FB5D2DB3086962650 ();
+// 0x00000061 System.Void UnityEngine.Animation_Enumerator::.ctor(UnityEngine.Animation)
+extern void Enumerator__ctor_mE90274D68218FACBF1EC2BBB177244F49E446E11 ();
+// 0x00000062 System.Object UnityEngine.Animation_Enumerator::get_Current()
+extern void Enumerator_get_Current_m7E017EDF8269D883AB26739301E19787C385F315 ();
+// 0x00000063 System.Boolean UnityEngine.Animation_Enumerator::MoveNext()
+extern void Enumerator_MoveNext_mC4528CDA0A6BA22B421D8ABB26F0C1843B710195 ();
+// 0x00000064 System.Void UnityEngine.AnimationState::.ctor()
+extern void AnimationState__ctor_mD763623A91BDF7F4AA95507A977F815103284E06 ();
+static Il2CppMethodPointer s_methodPointers[100] = 
 {
 	StateMachineBehaviour__ctor_m60289315ADCB494227D881EEFA6C4458BACA79DB,
 	StateMachineBehaviour_OnStateEnter_mAB25325C96611ADDF93038EC6792EC4F76AEF4EE,
@@ -301,8 +315,15 @@ static Il2CppMethodPointer s_methodPointers[93] =
 	OnOverrideControllerDirtyCallback_BeginInvoke_m35CE43BF7D40E88192183CF666F2BB7EFE8C6F9D,
 	OnOverrideControllerDirtyCallback_EndInvoke_m39CFD9FD2CC3035CFF6809F56447932B1394C08E,
 	AnimationEvent__ctor_m6C228EB716B6B53DE2665091C056428EFB90897F,
+	Animation_GetEnumerator_m1AA556FBFDF08728D25984E9C3123C187DC76191,
+	Animation_GetStateAtIndex_mC1F37F66327704F8DD88BE26AD73B2D5051698CA,
+	Animation_GetStateCount_m9E1764870EAF179CD0D21E3FB5D2DB3086962650,
+	Enumerator__ctor_mE90274D68218FACBF1EC2BBB177244F49E446E11,
+	Enumerator_get_Current_m7E017EDF8269D883AB26739301E19787C385F315,
+	Enumerator_MoveNext_mC4528CDA0A6BA22B421D8ABB26F0C1843B710195,
+	AnimationState__ctor_mD763623A91BDF7F4AA95507A977F815103284E06,
 };
-static const int32_t s_InvokerIndices[93] = 
+static const int32_t s_InvokerIndices[100] = 
 {
 	23,
 	1364,
@@ -397,12 +418,19 @@ static const int32_t s_InvokerIndices[93] =
 	113,
 	26,
 	23,
+	14,
+	34,
+	10,
+	26,
+	14,
+	114,
+	23,
 };
 extern const Il2CppCodeGenModule g_UnityEngine_AnimationModuleCodeGenModule;
 const Il2CppCodeGenModule g_UnityEngine_AnimationModuleCodeGenModule = 
 {
 	"UnityEngine.AnimationModule.dll",
-	93,
+	100,
 	s_methodPointers,
 	s_InvokerIndices,
 	0,

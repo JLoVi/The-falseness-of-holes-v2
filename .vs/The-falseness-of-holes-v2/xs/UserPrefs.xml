@@ -1,0 +1,16 @@
+﻿<Properties StartupConfiguration="{84E18692-AE8E-4F2F-B5F0-D2A322A9CE2E}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/_Scripts/Portal.cs">
+    <Files>
+      <File FileName="Assets/_Shaders/Skybox-ProceduralPortal.shader" Line="25" Column="10" />
+      <File FileName="Temp/Compiled-Skybox-Procedural.shader" />
+      <File FileName="Assets/_Scripts/Portal.cs" Line="1" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="2e7d0c15-3843-4410-bf59-8a3013de6848" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

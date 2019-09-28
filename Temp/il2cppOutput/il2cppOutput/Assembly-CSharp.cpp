@@ -7065,6 +7065,24 @@ public:
 };
 
 
+// UnityEngine.Rendering.CompareFunction
+struct  CompareFunction_t217BE827C5994EDCA3FE70CE73578C2F729F9E69 
+{
+public:
+	// System.Int32 UnityEngine.Rendering.CompareFunction::value__
+	int32_t ___value___2;
+
+public:
+	inline static int32_t get_offset_of_value___2() { return static_cast<int32_t>(offsetof(CompareFunction_t217BE827C5994EDCA3FE70CE73578C2F729F9E69, ___value___2)); }
+	inline int32_t get_value___2() const { return ___value___2; }
+	inline int32_t* get_address_of_value___2() { return &___value___2; }
+	inline void set_value___2(int32_t value)
+	{
+		___value___2 = value;
+	}
+};
+
+
 // UnityEngine.TextureFormat
 struct  TextureFormat_t7C6B5101554065C47682E592D1E26079D4EC2DCE 
 {
@@ -28984,37 +29002,58 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Portal_SetMaterials_m31700D34DC2B6A3BBBD
 		il2cpp_codegen_initialize_method (Portal_SetMaterials_m31700D34DC2B6A3BBBDE9CF8DFB014D349933988_MetadataUsageId);
 		s_Il2CppMethodInitialized = true;
 	}
-	MaterialU5BU5D_tD2350F98F2A1BB6C7A5FBFE1474DFC47331AB398* V_0 = NULL;
-	int32_t V_1 = 0;
+	int32_t V_0 = 0;
+	MaterialU5BU5D_tD2350F98F2A1BB6C7A5FBFE1474DFC47331AB398* V_1 = NULL;
+	int32_t V_2 = 0;
+	int32_t G_B3_0 = 0;
 	{
 		bool L_0 = ___fullRender0;
-		MaterialU5BU5D_tD2350F98F2A1BB6C7A5FBFE1474DFC47331AB398* L_1 = __this->get_materials_4();
-		V_0 = L_1;
-		V_1 = 0;
-		goto IL_001f;
+		if (L_0)
+		{
+			goto IL_0006;
+		}
+	}
+	{
+		G_B3_0 = 3;
+		goto IL_0007;
 	}
 
-IL_000d:
+IL_0006:
 	{
-		MaterialU5BU5D_tD2350F98F2A1BB6C7A5FBFE1474DFC47331AB398* L_2 = V_0;
-		int32_t L_3 = V_1;
+		G_B3_0 = 6;
+	}
+
+IL_0007:
+	{
+		V_0 = G_B3_0;
+		MaterialU5BU5D_tD2350F98F2A1BB6C7A5FBFE1474DFC47331AB398* L_1 = __this->get_materials_4();
+		V_1 = L_1;
+		V_2 = 0;
+		goto IL_0025;
+	}
+
+IL_0013:
+	{
+		MaterialU5BU5D_tD2350F98F2A1BB6C7A5FBFE1474DFC47331AB398* L_2 = V_1;
+		int32_t L_3 = V_2;
 		NullCheck(L_2);
 		int32_t L_4 = L_3;
 		Material_tF7DB3BF0C24DEC2FE0CB51E5DF5053D5223C8598 * L_5 = (L_2)->GetAt(static_cast<il2cpp_array_size_t>(L_4));
+		int32_t L_6 = V_0;
 		NullCheck(L_5);
-		Material_SetInt_m1FCBDBB985E6A299AE11C3D8AF29BB4D7C7DF278(L_5, _stringLiteralF2F2AE3DB992DBFCB9063AE9859858F8D09C842D, 3, /*hidden argument*/NULL);
-		int32_t L_6 = V_1;
-		V_1 = ((int32_t)il2cpp_codegen_add((int32_t)L_6, (int32_t)1));
+		Material_SetInt_m1FCBDBB985E6A299AE11C3D8AF29BB4D7C7DF278(L_5, _stringLiteralF2F2AE3DB992DBFCB9063AE9859858F8D09C842D, L_6, /*hidden argument*/NULL);
+		int32_t L_7 = V_2;
+		V_2 = ((int32_t)il2cpp_codegen_add((int32_t)L_7, (int32_t)1));
 	}
 
-IL_001f:
+IL_0025:
 	{
-		int32_t L_7 = V_1;
-		MaterialU5BU5D_tD2350F98F2A1BB6C7A5FBFE1474DFC47331AB398* L_8 = V_0;
-		NullCheck(L_8);
-		if ((((int32_t)L_7) < ((int32_t)(((int32_t)((int32_t)(((RuntimeArray*)L_8)->max_length)))))))
+		int32_t L_8 = V_2;
+		MaterialU5BU5D_tD2350F98F2A1BB6C7A5FBFE1474DFC47331AB398* L_9 = V_1;
+		NullCheck(L_9);
+		if ((((int32_t)L_8) < ((int32_t)(((int32_t)((int32_t)(((RuntimeArray*)L_9)->max_length)))))))
 		{
-			goto IL_000d;
+			goto IL_0013;
 		}
 	}
 	{
