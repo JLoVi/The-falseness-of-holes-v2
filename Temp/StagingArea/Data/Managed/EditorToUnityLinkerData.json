@@ -6,7 +6,7 @@
             "fullManagedTypeName": "UnityEngine.Material",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/_Scenes/00-all.unity"
+                "Assets/_Scenes/all-no-ar.unity"
             ]
         },
         {
@@ -15,7 +15,7 @@
             "fullManagedTypeName": "UnityEngine.Object",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/_Scenes/00-all.unity"
+                "Assets/_Scenes/all-no-ar.unity"
             ]
         },
         {
@@ -24,7 +24,7 @@
             "fullManagedTypeName": "UnityEditor.MonoScript",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/_Scenes/00-all.unity"
+                "Assets/_Scenes/all-no-ar.unity"
             ]
         },
         {
@@ -33,7 +33,7 @@
             "fullManagedTypeName": "",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/_Scenes/00-all.unity"
+                "Assets/_Scenes/all-no-ar.unity"
             ]
         },
         {
@@ -84,7 +84,7 @@
             "fullManagedTypeName": "UnityEngine.Shader",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/_Scenes/00-all.unity"
+                "Assets/_Scenes/all-no-ar.unity"
             ]
         },
         {
@@ -93,7 +93,7 @@
             "fullManagedTypeName": "UnityEngine.TextAsset",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/_Scenes/00-all.unity"
+                "Assets/_Scenes/all-no-ar.unity"
             ]
         },
         {
@@ -102,7 +102,7 @@
             "fullManagedTypeName": "",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/_Scenes/00-all.unity"
+                "Assets/_Scenes/all-no-ar.unity"
             ]
         },
         {
@@ -146,7 +146,7 @@
             "fullManagedTypeName": "",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/_Scenes/00-all.unity"
+                "Assets/_Scenes/all-no-ar.unity"
             ]
         },
         {
@@ -218,7 +218,7 @@
             "fullManagedTypeName": "UnityEngine.AnimationClip",
             "moduleName": "Animation",
             "usedInScenes": [
-                "Assets/_Scenes/00-all.unity"
+                "Assets/_Scenes/all-no-ar.unity"
             ]
         },
         {
@@ -227,7 +227,7 @@
             "fullManagedTypeName": "UnityEngine.Animation",
             "moduleName": "Animation",
             "usedInScenes": [
-                "Assets/_Scenes/00-all.unity"
+                "Assets/_Scenes/all-no-ar.unity"
             ]
         },
         {
@@ -236,7 +236,7 @@
             "fullManagedTypeName": "UnityEngine.AudioBehaviour",
             "moduleName": "Audio",
             "usedInScenes": [
-                "Assets/_Scenes/00-all.unity"
+                "Assets/_Scenes/all-no-ar.unity"
             ]
         },
         {
@@ -245,7 +245,7 @@
             "fullManagedTypeName": "UnityEngine.AudioListener",
             "moduleName": "Audio",
             "usedInScenes": [
-                "Assets/_Scenes/00-all.unity"
+                "Assets/_Scenes/all-no-ar.unity"
             ]
         },
         {
@@ -254,7 +254,7 @@
             "fullManagedTypeName": "UnityEngine.Motion",
             "moduleName": "Animation",
             "usedInScenes": [
-                "Assets/_Scenes/00-all.unity"
+                "Assets/_Scenes/all-no-ar.unity"
             ]
         },
         {
@@ -263,7 +263,7 @@
             "fullManagedTypeName": "UnityEngine.Renderer",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/_Scenes/00-all.unity"
+                "Assets/_Scenes/all-no-ar.unity"
             ]
         },
         {
@@ -272,7 +272,7 @@
             "fullManagedTypeName": "UnityEngine.Behaviour",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/_Scenes/00-all.unity"
+                "Assets/_Scenes/all-no-ar.unity"
             ]
         },
         {
@@ -281,7 +281,7 @@
             "fullManagedTypeName": "UnityEngine.Component",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/_Scenes/00-all.unity"
+                "Assets/_Scenes/all-no-ar.unity"
             ]
         },
         {
@@ -290,7 +290,7 @@
             "fullManagedTypeName": "UnityEngine.ParticleSystem",
             "moduleName": "ParticleSystem",
             "usedInScenes": [
-                "Assets/_Scenes/00-all.unity"
+                "Assets/_Scenes/all-no-ar.unity"
             ]
         },
         {
@@ -299,7 +299,7 @@
             "fullManagedTypeName": "UnityEngine.GameObject",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/_Scenes/00-all.unity"
+                "Assets/_Scenes/all-no-ar.unity"
             ]
         },
         {
@@ -308,7 +308,7 @@
             "fullManagedTypeName": "UnityEngine.ParticleSystemRenderer",
             "moduleName": "ParticleSystem",
             "usedInScenes": [
-                "Assets/_Scenes/00-all.unity"
+                "Assets/_Scenes/all-no-ar.unity"
             ]
         },
         {
@@ -317,7 +317,7 @@
             "fullManagedTypeName": "UnityEngine.Rigidbody",
             "moduleName": "Physics",
             "usedInScenes": [
-                "Assets/_Scenes/00-all.unity"
+                "Assets/_Scenes/all-no-ar.unity"
             ]
         },
         {
@@ -326,7 +326,7 @@
             "fullManagedTypeName": "UnityEngine.Texture2D",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/_Scenes/00-all.unity"
+                "Assets/_Scenes/all-no-ar.unity"
             ]
         },
         {
@@ -335,7 +335,7 @@
             "fullManagedTypeName": "UnityEngine.Texture",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/_Scenes/00-all.unity"
+                "Assets/_Scenes/all-no-ar.unity"
             ]
         },
         {
@@ -344,7 +344,7 @@
             "fullManagedTypeName": "UnityEngine.Transform",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/_Scenes/00-all.unity"
+                "Assets/_Scenes/all-no-ar.unity"
             ]
         },
         {
@@ -353,7 +353,7 @@
             "fullManagedTypeName": "UnityEngine.WindZone",
             "moduleName": "Wind",
             "usedInScenes": [
-                "Assets/_Scenes/00-all.unity"
+                "Assets/_Scenes/all-no-ar.unity"
             ]
         },
         {
@@ -362,7 +362,7 @@
             "fullManagedTypeName": "UnityEngine.LODGroup",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/_Scenes/00-all.unity"
+                "Assets/_Scenes/all-no-ar.unity"
             ]
         },
         {
@@ -371,7 +371,7 @@
             "fullManagedTypeName": "UnityEngine.MeshFilter",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/_Scenes/00-all.unity"
+                "Assets/_Scenes/all-no-ar.unity"
             ]
         },
         {
@@ -380,7 +380,7 @@
             "fullManagedTypeName": "UnityEngine.Mesh",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/_Scenes/00-all.unity"
+                "Assets/_Scenes/all-no-ar.unity"
             ]
         },
         {
@@ -389,7 +389,7 @@
             "fullManagedTypeName": "UnityEngine.MonoBehaviour",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/_Scenes/00-all.unity"
+                "Assets/_Scenes/all-no-ar.unity"
             ]
         },
         {
@@ -398,7 +398,7 @@
             "fullManagedTypeName": "UnityEngine.ReflectionProbe",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/_Scenes/00-all.unity"
+                "Assets/_Scenes/all-no-ar.unity"
             ]
         },
         {
@@ -407,7 +407,7 @@
             "fullManagedTypeName": "UnityEngine.Camera",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/_Scenes/00-all.unity"
+                "Assets/_Scenes/all-no-ar.unity"
             ]
         },
         {
@@ -416,7 +416,7 @@
             "fullManagedTypeName": "UnityEngine.MeshRenderer",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/_Scenes/00-all.unity"
+                "Assets/_Scenes/all-no-ar.unity"
             ]
         },
         {
@@ -425,7 +425,7 @@
             "fullManagedTypeName": "UnityEngine.Terrain",
             "moduleName": "Terrain",
             "usedInScenes": [
-                "Assets/_Scenes/00-all.unity"
+                "Assets/_Scenes/all-no-ar.unity"
             ]
         },
         {
@@ -434,7 +434,7 @@
             "fullManagedTypeName": "UnityEngine.TerrainData",
             "moduleName": "Terrain",
             "usedInScenes": [
-                "Assets/_Scenes/00-all.unity"
+                "Assets/_Scenes/all-no-ar.unity"
             ]
         },
         {
@@ -443,7 +443,7 @@
             "fullManagedTypeName": "UnityEngine.Light",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/_Scenes/00-all.unity"
+                "Assets/_Scenes/all-no-ar.unity"
             ]
         },
         {
@@ -452,7 +452,7 @@
             "fullManagedTypeName": "UnityEngine.LightmapSettings",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/_Scenes/00-all.unity"
+                "Assets/_Scenes/all-no-ar.unity"
             ]
         },
         {
@@ -461,7 +461,7 @@
             "fullManagedTypeName": "UnityEngine.TerrainLayer",
             "moduleName": "Terrain",
             "usedInScenes": [
-                "Assets/_Scenes/00-all.unity"
+                "Assets/_Scenes/all-no-ar.unity"
             ]
         },
         {
@@ -470,7 +470,7 @@
             "fullManagedTypeName": "UnityEngine.Collider",
             "moduleName": "Physics",
             "usedInScenes": [
-                "Assets/_Scenes/00-all.unity"
+                "Assets/_Scenes/all-no-ar.unity"
             ]
         },
         {
@@ -479,7 +479,7 @@
             "fullManagedTypeName": "",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/_Scenes/00-all.unity"
+                "Assets/_Scenes/all-no-ar.unity"
             ]
         },
         {
@@ -488,7 +488,7 @@
             "fullManagedTypeName": "UnityEngine.FlareLayer",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/_Scenes/00-all.unity"
+                "Assets/_Scenes/all-no-ar.unity"
             ]
         },
         {
@@ -497,7 +497,7 @@
             "fullManagedTypeName": "UnityEngine.GUILayer",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/_Scenes/00-all.unity"
+                "Assets/_Scenes/all-no-ar.unity"
             ]
         },
         {
@@ -506,7 +506,7 @@
             "fullManagedTypeName": "UnityEngine.RenderSettings",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/_Scenes/00-all.unity"
+                "Assets/_Scenes/all-no-ar.unity"
             ]
         },
         {
@@ -515,7 +515,7 @@
             "fullManagedTypeName": "UnityEngine.CapsuleCollider",
             "moduleName": "Physics",
             "usedInScenes": [
-                "Assets/_Scenes/00-all.unity"
+                "Assets/_Scenes/all-no-ar.unity"
             ]
         },
         {
@@ -524,7 +524,7 @@
             "fullManagedTypeName": "UnityEngine.TerrainCollider",
             "moduleName": "TerrainPhysics",
             "usedInScenes": [
-                "Assets/_Scenes/00-all.unity"
+                "Assets/_Scenes/all-no-ar.unity"
             ]
         },
         {
@@ -533,7 +533,7 @@
             "fullManagedTypeName": "UnityEngine.BoxCollider",
             "moduleName": "Physics",
             "usedInScenes": [
-                "Assets/_Scenes/00-all.unity"
+                "Assets/_Scenes/all-no-ar.unity"
             ]
         },
         {
@@ -542,7 +542,7 @@
             "fullManagedTypeName": "UnityEngine.SphereCollider",
             "moduleName": "Physics",
             "usedInScenes": [
-                "Assets/_Scenes/00-all.unity"
+                "Assets/_Scenes/all-no-ar.unity"
             ]
         },
         {
@@ -551,7 +551,7 @@
             "fullManagedTypeName": "UnityEngine.MeshCollider",
             "moduleName": "Physics",
             "usedInScenes": [
-                "Assets/_Scenes/00-all.unity"
+                "Assets/_Scenes/all-no-ar.unity"
             ]
         },
         {

@@ -18,7 +18,7 @@ public class Portal : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-       // SetMaterials(false);
+      //  SetMaterials();
 //        device = GameObject.Find("Main Camera").transform;
 
         foreach (var mat in materials)
@@ -45,38 +45,47 @@ public class Portal : MonoBehaviour
                 mat.SetInt("_StencilTest", 6);
             }
 
-            
+            Debug.Log(mat.GetInt("_StencilTest"));
+
         }
 
     }
 
-    bool GetIsInFront()
+   /* bool GetIsInFront()
     {
         Vector3 pos = transform.InverseTransformPoint(device.position);
         return pos.z >= 0 ? true : false;
-    }
+    }*/
 
-    void OnTriggerEnter(Collider other)
+    void OnTriggerExit(Collider other)
     {
+        Debug.Log("exit");
         if (other.transform != device)
             return;
+        SetMaterials();
 
-        wasInFront = GetIsInFront();
+        //wasInFront = GetIsInFront();
     }
 
-    void OnTriggerStay(Collider other)
+  /*  void OnTriggerStay(Collider other)
     {
+       
+
         if (other.transform != device)
             return;
+       
+     //   bool isInFront = GetIsInFront();
+        
 
-        bool isInFront = GetIsInFront();
-        if((isInFront && !wasInFront) || (wasInFront && !isInFront))
+        if ((isInFront && !wasInFront) || (wasInFront && !isInFront))
         {
-            //inOtherWorld = !inOtherWorld;
+            Debug.Log("Stay");
+            inOtherWorld = !inOtherWorld;
             SetMaterials();
+            
         }
         wasInFront = isInFront;
-    }
+    }*/
 
     void OnDestroy()
     {

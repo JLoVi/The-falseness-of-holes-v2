@@ -24,7 +24,7 @@ ScriptsOnlyBuild:
     - UnityEngine.Networking.NetworkCallbacks
     - UnityEngine.Networking.NetworkIdentity
   sceneClasses:
-    Assets/_Scenes/00-all.unity:
+    Assets/_Scenes/all-no-ar.unity:
     - Class: 1
       Script: {instanceID: 0}
     - Class: 4
@@ -1112,5 +1112,5 @@ ScriptsOnlyBuild:
     className: PlayableTrack
   platform: 9
   scenePathNames:
-  - Assets/_Scenes/00-all.unity
-  playerPath: /Users/jelena/Documents/00-PORTINAIA/unity/builds/obj-test-v18
+  - Assets/_Scenes/all-no-ar.unity
+  playerPath: /Users/jelena/Documents/00-PORTINAIA/unity/builds/sequence-test-v21

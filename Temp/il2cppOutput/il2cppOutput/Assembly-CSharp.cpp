@@ -906,6 +906,7 @@ IL2CPP_EXTERN_C String_t* _stringLiteralD65751FCC0A1075873EDF6F51589B98F576281B9
 IL2CPP_EXTERN_C String_t* _stringLiteralD9782823FFC4B41232BAAA571BCB5A0B6A7BEB3B;
 IL2CPP_EXTERN_C String_t* _stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709;
 IL2CPP_EXTERN_C String_t* _stringLiteralDB92161B3BD88A8B0801D56B77D8122C67EACE59;
+IL2CPP_EXTERN_C String_t* _stringLiteralDE3AC21778E51DE199438300E1A9F816C618D33A;
 IL2CPP_EXTERN_C String_t* _stringLiteralDE603C91038F329CCE1CCA8A30EA161B2271E2F6;
 IL2CPP_EXTERN_C String_t* _stringLiteralE088B60D61E602F8CA28BAD3E7F58CB7D75B3C1D;
 IL2CPP_EXTERN_C String_t* _stringLiteralE5CBACFBE2CFAA059170454BCBF0060D038E9118;
@@ -1339,8 +1340,7 @@ IL2CPP_EXTERN_C const uint32_t PointCloudIdsExample_Start_mD15777687C4710E82B096
 IL2CPP_EXTERN_C const uint32_t PointCloudIdsExample_Update_m16E43E4790EC1CD98C4C1F2BBA8471EFEDFE922D_MetadataUsageId;
 IL2CPP_EXTERN_C const uint32_t PointCloudParticleExample_Start_mBACE55BB8821218A6EB98FB9FA2BD25DCBC9AAE4_MetadataUsageId;
 IL2CPP_EXTERN_C const uint32_t PointCloudParticleExample_Update_mF8074FABCB58BA902FDA598998D0A4401813FDBC_MetadataUsageId;
-IL2CPP_EXTERN_C const uint32_t Portal_OnTriggerEnter_mE8092AF2A861BEBE03385E361BB30347507EACA9_MetadataUsageId;
-IL2CPP_EXTERN_C const uint32_t Portal_OnTriggerStay_m840B9E1928F9BE2E7FD3D751654578B1D210B406_MetadataUsageId;
+IL2CPP_EXTERN_C const uint32_t Portal_OnTriggerExit_m5F648C834C33276D4D5E6B082F45735130F16350_MetadataUsageId;
 IL2CPP_EXTERN_C const uint32_t Portal_SetMaterials_mDC3D6E7BAE24BB87EE1CDB67553B8F5D586341E9_MetadataUsageId;
 IL2CPP_EXTERN_C const uint32_t Portal_Start_mE52DBD38530ED87426474916963522A8BFE3CA87_MetadataUsageId;
 IL2CPP_EXTERN_C const uint32_t PrintBounds_Start_mC558A0156C5AAB8FEB3239FB2014884C4ACC1476_MetadataUsageId;
@@ -18802,10 +18802,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3U5BU5D_tB9EC3346CC4A0EA5447D968E84A9AC
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Mathf_Min_m1A2CC204E361AE13C329B6535165179798D3313A (int32_t ___a0, int32_t ___b1, const RuntimeMethod* method);
 // System.Int32 UnityEngine.Material::GetInt(System.String)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Material_GetInt_mE2577C1C53AB98AF3FEE2BC95F04EC5694933F41 (Material_tF7DB3BF0C24DEC2FE0CB51E5DF5053D5223C8598 * __this, String_t* ___name0, const RuntimeMethod* method);
-// UnityEngine.Vector3 UnityEngine.Transform::InverseTransformPoint(UnityEngine.Vector3)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_tDCF05E21F632FE2BA260C06E0D10CA81513E6720  Transform_InverseTransformPoint_mB6E3145F20B531B4A781C194BAC43A8255C96C47 (Transform_tBB9E78A2766C3C83599A8F66EDE7D1FCAFC66EDA * __this, Vector3_tDCF05E21F632FE2BA260C06E0D10CA81513E6720  ___position0, const RuntimeMethod* method);
-// System.Boolean Portal::GetIsInFront()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Portal_GetIsInFront_m4087A439373FAC4399BFAA471517C8D8F1D2BDAB (Portal_t6C22C161CAA950FE0FFC955E6042A652909ECE71 * __this, const RuntimeMethod* method);
 // System.Void Portal::SetMaterials()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Portal_SetMaterials_mDC3D6E7BAE24BB87EE1CDB67553B8F5D586341E9 (Portal_t6C22C161CAA950FE0FFC955E6042A652909ECE71 * __this, const RuntimeMethod* method);
 // !!0 UnityEngine.Component::GetComponent<UnityEngine.ReflectionProbe>()
@@ -29031,7 +29027,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Portal_SetMaterials_mDC3D6E7BAE24BB87EE1
 		MaterialU5BU5D_tD2350F98F2A1BB6C7A5FBFE1474DFC47331AB398* L_0 = __this->get_materials_4();
 		V_0 = L_0;
 		V_1 = 0;
-		goto IL_0049;
+		goto IL_005e;
 	}
 
 IL_000b:
@@ -29075,16 +29071,23 @@ IL_002b:
 
 IL_0045:
 	{
-		int32_t L_11 = V_1;
-		V_1 = ((int32_t)il2cpp_codegen_add((int32_t)L_11, (int32_t)1));
+		Material_tF7DB3BF0C24DEC2FE0CB51E5DF5053D5223C8598 * L_11 = V_2;
+		NullCheck(L_11);
+		int32_t L_12 = Material_GetInt_mE2577C1C53AB98AF3FEE2BC95F04EC5694933F41(L_11, _stringLiteralF2F2AE3DB992DBFCB9063AE9859858F8D09C842D, /*hidden argument*/NULL);
+		int32_t L_13 = L_12;
+		RuntimeObject * L_14 = Box(Int32_t585191389E07734F19F3156FF88FB3EF4800D102_il2cpp_TypeInfo_var, &L_13);
+		IL2CPP_RUNTIME_CLASS_INIT(Debug_t7B5FCB117E2FD63B6838BC52821B252E2BFB61C4_il2cpp_TypeInfo_var);
+		Debug_Log_m4B7C70BAFD477C6BDB59C88A0934F0B018D03708(L_14, /*hidden argument*/NULL);
+		int32_t L_15 = V_1;
+		V_1 = ((int32_t)il2cpp_codegen_add((int32_t)L_15, (int32_t)1));
 	}
 
-IL_0049:
+IL_005e:
 	{
-		int32_t L_12 = V_1;
-		MaterialU5BU5D_tD2350F98F2A1BB6C7A5FBFE1474DFC47331AB398* L_13 = V_0;
-		NullCheck(L_13);
-		if ((((int32_t)L_12) < ((int32_t)(((int32_t)((int32_t)(((RuntimeArray*)L_13)->max_length)))))))
+		int32_t L_16 = V_1;
+		MaterialU5BU5D_tD2350F98F2A1BB6C7A5FBFE1474DFC47331AB398* L_17 = V_0;
+		NullCheck(L_17);
+		if ((((int32_t)L_16) < ((int32_t)(((int32_t)((int32_t)(((RuntimeArray*)L_17)->max_length)))))))
 		{
 			goto IL_000b;
 		}
@@ -29093,41 +29096,18 @@ IL_0049:
 		return;
 	}
 }
-// System.Boolean Portal::GetIsInFront()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Portal_GetIsInFront_m4087A439373FAC4399BFAA471517C8D8F1D2BDAB (Portal_t6C22C161CAA950FE0FFC955E6042A652909ECE71 * __this, const RuntimeMethod* method)
-{
-	{
-		Transform_tBB9E78A2766C3C83599A8F66EDE7D1FCAFC66EDA * L_0 = Component_get_transform_m00F05BD782F920C301A7EBA480F3B7A904C07EC9(__this, /*hidden argument*/NULL);
-		Transform_tBB9E78A2766C3C83599A8F66EDE7D1FCAFC66EDA * L_1 = __this->get_device_5();
-		NullCheck(L_1);
-		Vector3_tDCF05E21F632FE2BA260C06E0D10CA81513E6720  L_2 = Transform_get_position_mF54C3A064F7C8E24F1C56EE128728B2E4485E294(L_1, /*hidden argument*/NULL);
-		NullCheck(L_0);
-		Vector3_tDCF05E21F632FE2BA260C06E0D10CA81513E6720  L_3 = Transform_InverseTransformPoint_mB6E3145F20B531B4A781C194BAC43A8255C96C47(L_0, L_2, /*hidden argument*/NULL);
-		float L_4 = L_3.get_z_4();
-		if ((((float)L_4) >= ((float)(0.0f))))
-		{
-			goto IL_0024;
-		}
-	}
-	{
-		return (bool)0;
-	}
-
-IL_0024:
-	{
-		return (bool)1;
-	}
-}
-// System.Void Portal::OnTriggerEnter(UnityEngine.Collider)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Portal_OnTriggerEnter_mE8092AF2A861BEBE03385E361BB30347507EACA9 (Portal_t6C22C161CAA950FE0FFC955E6042A652909ECE71 * __this, Collider_t0FEEB36760860AD21B3B1F0509C365B393EC4BDF * ___other0, const RuntimeMethod* method)
+// System.Void Portal::OnTriggerExit(UnityEngine.Collider)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Portal_OnTriggerExit_m5F648C834C33276D4D5E6B082F45735130F16350 (Portal_t6C22C161CAA950FE0FFC955E6042A652909ECE71 * __this, Collider_t0FEEB36760860AD21B3B1F0509C365B393EC4BDF * ___other0, const RuntimeMethod* method)
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_method (Portal_OnTriggerEnter_mE8092AF2A861BEBE03385E361BB30347507EACA9_MetadataUsageId);
+		il2cpp_codegen_initialize_method (Portal_OnTriggerExit_m5F648C834C33276D4D5E6B082F45735130F16350_MetadataUsageId);
 		s_Il2CppMethodInitialized = true;
 	}
 	{
+		IL2CPP_RUNTIME_CLASS_INIT(Debug_t7B5FCB117E2FD63B6838BC52821B252E2BFB61C4_il2cpp_TypeInfo_var);
+		Debug_Log_m4B7C70BAFD477C6BDB59C88A0934F0B018D03708(_stringLiteralDE3AC21778E51DE199438300E1A9F816C618D33A, /*hidden argument*/NULL);
 		Collider_t0FEEB36760860AD21B3B1F0509C365B393EC4BDF * L_0 = ___other0;
 		NullCheck(L_0);
 		Transform_tBB9E78A2766C3C83599A8F66EDE7D1FCAFC66EDA * L_1 = Component_get_transform_m00F05BD782F920C301A7EBA480F3B7A904C07EC9(L_0, /*hidden argument*/NULL);
@@ -29136,89 +29116,16 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Portal_OnTriggerEnter_mE8092AF2A861BEBE0
 		bool L_3 = Object_op_Inequality_m31EF58E217E8F4BDD3E409DEF79E1AEE95874FC1(L_1, L_2, /*hidden argument*/NULL);
 		if (!L_3)
 		{
-			goto IL_0014;
+			goto IL_001e;
 		}
 	}
 	{
 		return;
 	}
 
-IL_0014:
-	{
-		bool L_4 = Portal_GetIsInFront_m4087A439373FAC4399BFAA471517C8D8F1D2BDAB(__this, /*hidden argument*/NULL);
-		__this->set_wasInFront_6(L_4);
-		return;
-	}
-}
-// System.Void Portal::OnTriggerStay(UnityEngine.Collider)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Portal_OnTriggerStay_m840B9E1928F9BE2E7FD3D751654578B1D210B406 (Portal_t6C22C161CAA950FE0FFC955E6042A652909ECE71 * __this, Collider_t0FEEB36760860AD21B3B1F0509C365B393EC4BDF * ___other0, const RuntimeMethod* method)
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_method (Portal_OnTriggerStay_m840B9E1928F9BE2E7FD3D751654578B1D210B406_MetadataUsageId);
-		s_Il2CppMethodInitialized = true;
-	}
-	bool V_0 = false;
-	{
-		Collider_t0FEEB36760860AD21B3B1F0509C365B393EC4BDF * L_0 = ___other0;
-		NullCheck(L_0);
-		Transform_tBB9E78A2766C3C83599A8F66EDE7D1FCAFC66EDA * L_1 = Component_get_transform_m00F05BD782F920C301A7EBA480F3B7A904C07EC9(L_0, /*hidden argument*/NULL);
-		Transform_tBB9E78A2766C3C83599A8F66EDE7D1FCAFC66EDA * L_2 = __this->get_device_5();
-		IL2CPP_RUNTIME_CLASS_INIT(Object_tAE11E5E46CD5C37C9F3E8950C00CD8B45666A2D0_il2cpp_TypeInfo_var);
-		bool L_3 = Object_op_Inequality_m31EF58E217E8F4BDD3E409DEF79E1AEE95874FC1(L_1, L_2, /*hidden argument*/NULL);
-		if (!L_3)
-		{
-			goto IL_0014;
-		}
-	}
-	{
-		return;
-	}
-
-IL_0014:
-	{
-		bool L_4 = Portal_GetIsInFront_m4087A439373FAC4399BFAA471517C8D8F1D2BDAB(__this, /*hidden argument*/NULL);
-		V_0 = L_4;
-		bool L_5 = V_0;
-		if (!L_5)
-		{
-			goto IL_0026;
-		}
-	}
-	{
-		bool L_6 = __this->get_wasInFront_6();
-		if (!L_6)
-		{
-			goto IL_0031;
-		}
-	}
-
-IL_0026:
-	{
-		bool L_7 = __this->get_wasInFront_6();
-		if (!L_7)
-		{
-			goto IL_0037;
-		}
-	}
-	{
-		bool L_8 = V_0;
-		if (L_8)
-		{
-			goto IL_0037;
-		}
-	}
-
-IL_0031:
+IL_001e:
 	{
 		Portal_SetMaterials_mDC3D6E7BAE24BB87EE1CDB67553B8F5D586341E9(__this, /*hidden argument*/NULL);
-	}
-
-IL_0037:
-	{
-		bool L_9 = V_0;
-		__this->set_wasInFront_6(L_9);
 		return;
 	}
 }

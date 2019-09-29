@@ -30,7 +30,7 @@ Material:
     - _HalfOverCutoff: 1
     - _Occlusion: 1.4925373
     - _SquashAmount: 1
-    - _StencilTest: 3
+    - _StencilTest: 6
     m_Colors:
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _Scale: {r: 1, g: 1, b: 1, a: 1}
