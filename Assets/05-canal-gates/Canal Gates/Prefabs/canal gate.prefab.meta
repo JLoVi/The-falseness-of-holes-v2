@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 7dc7377927c6afa478f3ad51e555e9c8
+labels:
+- Architecture
+- Concrete
+- Metal
+- Prop
+- Wall
+- Water
+- Wood
+timeCreated: 1537794351
+licenseType: Store
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

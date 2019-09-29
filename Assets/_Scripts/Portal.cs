@@ -10,32 +10,27 @@ public class Portal : MonoBehaviour
 
     public Transform device;
 
-    bool wasInFront;
-    bool inOtherWorld;
+    public int sceneToActivate;
 
-    bool reverseMat;
+    public delegate void activateAction();
+    public static event activateAction OnActivated;
 
-    // Start is called before the first frame update
+
     void Start()
     {
-      //  SetMaterials();
-//        device = GameObject.Find("Main Camera").transform;
-
+      
         foreach (var mat in materials)
         {
             Debug.Log(mat.GetInt("_StencilTest"));
-
-
         }
     }
 
     void SetMaterials()
     {
-        //var stencilTest = fullRender ? CompareFunction.NotEqual : CompareFunction.Equal;
 
         foreach (var mat in materials)
         {
-            //mat.SetInt("_StencilTest", (int)stencilTest);
+           
             if(mat.GetInt("_StencilTest")== 6)
             {
                 mat.SetInt("_StencilTest", 3);
@@ -45,18 +40,12 @@ public class Portal : MonoBehaviour
                 mat.SetInt("_StencilTest", 6);
             }
 
-            Debug.Log(mat.GetInt("_StencilTest"));
+           // Debug.Log(mat.GetInt("_StencilTest"));
 
         }
 
     }
-
-   /* bool GetIsInFront()
-    {
-        Vector3 pos = transform.InverseTransformPoint(device.position);
-        return pos.z >= 0 ? true : false;
-    }*/
-
+  
     void OnTriggerExit(Collider other)
     {
         Debug.Log("exit");
@@ -64,37 +53,15 @@ public class Portal : MonoBehaviour
             return;
         SetMaterials();
 
-        //wasInFront = GetIsInFront();
+        if(gameObject.GetComponent<BoxCollider>() != null) gameObject.GetComponent<BoxCollider>().enabled = false;
+
+        PortalManager.activeSceneNumber = sceneToActivate;
+        if (OnActivated != null)
+            OnActivated();
+
     }
 
-  /*  void OnTriggerStay(Collider other)
-    {
-       
+  
 
-        if (other.transform != device)
-            return;
-       
-     //   bool isInFront = GetIsInFront();
-        
-
-        if ((isInFront && !wasInFront) || (wasInFront && !isInFront))
-        {
-            Debug.Log("Stay");
-            inOtherWorld = !inOtherWorld;
-            SetMaterials();
-            
-        }
-        wasInFront = isInFront;
-    }*/
-
-    void OnDestroy()
-    {
-        //SetMaterials();
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+    
 }

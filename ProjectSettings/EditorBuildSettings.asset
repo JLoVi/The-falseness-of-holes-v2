@@ -63,6 +63,6 @@ EditorBuildSettings:
     path: Assets/_Scenes/00-all.unity
     guid: c96785809c3ed49c0b7ce3969b104679
   - enabled: 1
-    path: Assets/_Scenes/all-no-ar.unity
+    path: Assets/_Scenes/00-all-no-ar.unity
     guid: 45bc29e93991d427c9796f190c70c5f0
   m_configObjects: {}

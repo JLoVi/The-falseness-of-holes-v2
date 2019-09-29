@@ -1,0 +1,167 @@
+fileFormatVersion: 2
+guid: 7dfedbf4581cce94eb043d655fd281a4
+timeCreated: 1537793718
+licenseType: Store
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: Circle.002
+    100002: Circle.005
+    100004: Circle.006
+    100006: Circle.007
+    100008: Cube.001
+    100010: Cube.009
+    100012: Frame Small_LOD0
+    100014: Gate Small_LOD0
+    100016: NurbsCurve
+    100018: NurbsCurve.003
+    100020: Plane.001
+    100022: Plane.003
+    100024: Screw
+    100026: //RootNode
+    100028: Wall 1
+    100030: Wall 2
+    400000: Circle.002
+    400002: Circle.005
+    400004: Circle.006
+    400006: Circle.007
+    400008: Cube.001
+    400010: Cube.009
+    400012: Frame Small_LOD0
+    400014: Gate Small_LOD0
+    400016: NurbsCurve
+    400018: NurbsCurve.003
+    400020: Plane.001
+    400022: Plane.003
+    400024: Screw
+    400026: //RootNode
+    400028: Wall 1
+    400030: Wall 2
+    2100000: No Name
+    2100002: Iron Bridge
+    2100004: Sluice
+    2300000: Circle.002
+    2300002: Circle.005
+    2300004: Circle.006
+    2300006: Circle.007
+    2300008: Cube.001
+    2300010: Cube.009
+    2300012: Frame Small_LOD0
+    2300014: Gate Small_LOD0
+    2300016: NurbsCurve
+    2300018: NurbsCurve.003
+    2300020: Plane.001
+    2300022: Plane.003
+    2300024: Screw
+    2300026: Wall 1
+    2300028: Wall 2
+    3300000: Circle.002
+    3300002: Circle.005
+    3300004: Circle.006
+    3300006: Circle.007
+    3300008: Cube.001
+    3300010: Cube.009
+    3300012: Frame Small_LOD0
+    3300014: Gate Small_LOD0
+    3300016: NurbsCurve
+    3300018: NurbsCurve.003
+    3300020: Plane.001
+    3300022: Plane.003
+    3300024: Screw
+    3300026: Wall 1
+    3300028: Wall 2
+    4300000: NurbsCurve.003
+    4300002: NurbsCurve
+    4300004: Plane.003
+    4300006: Cube.001
+    4300008: Circle.006
+    4300010: Circle.005
+    4300012: Circle.007
+    4300014: Circle.002
+    4300016: Cube.009
+    4300018: Plane.001
+    4300020: Frame Small_LOD0
+    4300022: Wall 1
+    4300024: Wall 2
+    4300026: Gate Small_LOD0
+    4300028: Screw
+  externalObjects: {}
+  materials:
+    importMaterials: 0
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 1
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 16
+    secondaryUVAreaDistortion: 20
+    secondaryUVHardAngle: 102
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

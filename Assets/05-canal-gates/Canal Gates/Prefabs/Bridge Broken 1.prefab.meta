@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: f8e470978c4b4ac44a828641067e9787
+labels:
+- Architecture
+- Metal
+- Prop
+- Water
+- Wood
+timeCreated: 1537804690
+licenseType: Store
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,156 @@
+fileFormatVersion: 2
+guid: ae0441b883b31fa4bbb5adc9fd53b37e
+timeCreated: 1537798839
+licenseType: Store
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: Frame Wide_LOD0
+    100002: Gate Wide_LOD0
+    100004: Planks 3
+    100006: Planks 4
+    100008: Railing 5
+    100010: Railing 6
+    100012: Railing 7
+    100014: Railing 8
+    100016: Screw b
+    100018: //RootNode
+    100020: Steel Frame 3
+    100022: Steel Frame 4
+    100024: Wall 1b
+    100026: Wall 2b
+    400000: Frame Wide_LOD0
+    400002: Gate Wide_LOD0
+    400004: Planks 3
+    400006: Planks 4
+    400008: Railing 5
+    400010: Railing 6
+    400012: Railing 7
+    400014: Railing 8
+    400016: Screw b
+    400018: //RootNode
+    400020: Steel Frame 3
+    400022: Steel Frame 4
+    400024: Wall 1b
+    400026: Wall 2b
+    2100000: Iron Bridge
+    2100002: Sluice
+    2300000: Frame Wide_LOD0
+    2300002: Gate Wide_LOD0
+    2300004: Planks 3
+    2300006: Planks 4
+    2300008: Railing 5
+    2300010: Railing 6
+    2300012: Railing 7
+    2300014: Railing 8
+    2300016: Screw b
+    2300018: Steel Frame 3
+    2300020: Steel Frame 4
+    2300022: Wall 1b
+    2300024: Wall 2b
+    3300000: Frame Wide_LOD0
+    3300002: Gate Wide_LOD0
+    3300004: Planks 3
+    3300006: Planks 4
+    3300008: Railing 5
+    3300010: Railing 6
+    3300012: Railing 7
+    3300014: Railing 8
+    3300016: Screw b
+    3300018: Steel Frame 3
+    3300020: Steel Frame 4
+    3300022: Wall 1b
+    3300024: Wall 2b
+    4300000: Railing 6
+    4300002: Railing 5
+    4300004: Steel Frame 4
+    4300006: Planks 4
+    4300008: Planks 3
+    4300010: Steel Frame 3
+    4300012: Railing 7
+    4300014: Railing 8
+    4300016: Screw b
+    4300018: Wall 2b
+    4300020: Wall 1b
+    4300022: Frame Wide_LOD0
+    4300024: Gate Wide_LOD0
+  externalObjects: {}
+  materials:
+    importMaterials: 0
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 1
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 16
+    secondaryUVAreaDistortion: 20
+    secondaryUVHardAngle: 102
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
