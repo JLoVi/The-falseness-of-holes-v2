@@ -181,11 +181,16 @@
     <Compile Include="Assets\UnityARKitPlugin\Plugins\iOS\UnityARKit\NativeInterface\UnityARSessionNativeInterface.cs" />
     <Compile Include="Assets\UnityARKitPlugin\UnityARKitPluginSettings.cs" />
     <None Include="Assets\05-canal-gates\Canal Gates\Source Models\NOTE - Prefabs.txt" />
+    <None Include="Assets\08-Underground-parking\READ ME.txt" />
+    <None Include="Assets\08-Underground-parking\Shaders\Air duct.shader" />
+    <None Include="Assets\08-Underground-parking\Shaders\Floor ASE.shader" />
     <None Include="Assets\_Shaders\StencilFilter.shader" />
+    <None Include="Assets\07-Egyptian-tomb\Egyptian Tomb Asset Pack\Volumetric Light - README.txt" />
     <None Include="Assets\05-canal-gates\Canal Gates\Readme.txt" />
     <None Include="Assets\_Shaders\StandardSpecularStencil.shader" />
     <None Include="Assets\06-Doctors-office\Readme.txt" />
     <None Include="Assets\UnityARKitPlugin\Examples\Common\Shaders\MobileOcclusion.shader" />
+    <None Include="Assets\08-Underground-parking\Shaders\Floor.shader" />
     <None Include="Assets\_Shaders\TreeSoftOcclusionLeaveStencil.shader" />
     <None Include="Assets\UnityARKitPlugin\ARKitRemote\ARKITREMOTE.txt" />
     <None Include="Assets\_Shaders\PortalWindow.shader" />

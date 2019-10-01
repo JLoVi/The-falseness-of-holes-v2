@@ -1,0 +1,14 @@
+Update 1,1 : 
+
+- Now using the 5,6 new lightmaps.
+- The low polygons and baked lighting makes this assets usable for mobile
+- Now using the new Unity's post processing stack.
+
+Important note : To get access to the optimal visual quality please follow those two steps :
+
+- Make sure the lighting is set to "auto generate" and wait for it to be baked. If it takes too long for you, decrease the following settings : Direct samples , indirect samples and mostly the lightmap resolution.
+
+- To have the post processes displayed you will have to import the free unity package from the store : https://www.assetstore.unity3d.com/en/#!/content/83912 
+   The script is already assigned to the main camera of the scene and it should be added automatically. HOWEVER, the Screen space reflections and ambiant occlusion will only work with deffered rendering method (Unity's choices...) So if you want those effects , simply go to "Settings -> Project settings -> Graphics , and then change the default rendering method ( Forward ) to Deffered.
+
+If you encouter any issues with the lightmap or post processes , feel free to contacting me by email to : corentin.clays.contact@gmail.com
