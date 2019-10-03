@@ -25,12 +25,12 @@ public class PortalManager : MonoBehaviour
     {
         switch (activeSceneNumber)
         {
-            case 2:
+            case 2: //door to desert
                 scenePrefabs[1].SetActive(true);
                 portalPrefabs[1].SetActive(true);
                 break;
 
-            case 3:
+            case 3: //desert to lobby
                 portalPrefabs[0].SetActive(false);
                 scenePrefabs[0].SetActive(false);
 

@@ -1,15 +1,16 @@
 ﻿<Properties StartupConfiguration="{84E18692-AE8E-4F2F-B5F0-D2A322A9CE2E}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/_Scripts/PortalManager.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/_Shaders/Terrain-Specular-Base.shader">
     <Files>
       <File FileName="Assets/_Shaders/Skybox-ProceduralPortal.shader" Line="25" Column="10" />
-      <File FileName="Temp/Compiled-Skybox-Procedural.shader" />
-      <File FileName="Assets/_Scripts/Portal.cs" Line="59" Column="8" />
-      <File FileName="Assets/_Scripts/PortalManager.cs" Line="47" Column="38" />
+      <File FileName="Assets/_Scripts/Portal.cs" />
+      <File FileName="Assets/_Scripts/PortalManager.cs" Line="69" Column="76" />
+      <File FileName="Assets/_Shaders/StandardStencilFilter.shader" Line="1" Column="1" />
+      <File FileName="Assets/_Shaders/Terrain-Specular-Base.shader" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="e2562168-c4f0-4c92-8775-623f3f1843fa" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="f1a37abf-ced7-440c-b6ed-f9c2c301b7ff" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
